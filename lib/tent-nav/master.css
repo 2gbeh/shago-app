@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding:0; 
+	margin:0;
+	background-color:#F4F4F4;
+	color:#333;	
+	font:100%/1.4 "Segoe UI","Segoe UI Light","Segoe Script";}
+ol, ul, dl {
+	padding:0;
+	margin:0;
+	list-style-type:none;}
+table {
+	width:100%;
+	border-collapse:collapse;}	
+.wrap {
+	margin:0 auto;
+	width:400px;}
+
+main ul {
+	box-shadow:0 2px 1px 0 #DDD;}
+main ul li {	
+	border-bottom:solid thin #F4F4F4;
+	display:block;}	
+main ul li a {
+	padding:5px 0 10px;	
+	background-color:#FFF;	
+	color:inherit;
+	text-decoration:none;
+	display:block;}
+main ul li a:hover,
+main ul li a:active {
+	background-color:#F7F7F7;}	
+
+main table {
+	width:100%;}
+main table tr td:first-child, 
+main table tr td:last-child {
+	width:1px;}
+main table tr td {	
+	padding:0;}	
+
+footer {
+	margin:15px 0;
+	text-align:center;
+	text-shadow:1px 1px 0 #FFF;}		
+
+.section {
+	padding:15px 5px;
+	text-transform:uppercase;
+	text-shadow:1px 1px 0 #FFF;
+	font-size:14px;
+	font-weight:bold;}
+.meta {
+	font-style:normal;
+	float:right;}		
+.thumb {
+	margin:0 15px;
+	background-color:#0093DD;
+	color:#FFF;	
+	width:35px;
+	height:35px;
+	text-align:center;
+	font-style:normal;
+	font-weight:normal;
+	line-height:2.1;
+	border-radius:100%;
+	box-shadow:0 1px 1px #CCC;	
+	display:inline-block;}
+.caret {
+	margin:0 15px;
+	font-size:36px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1;}	
+
+	
+@media only screen and (max-width:600px) {
+header {
+	background-size:contain;
+	height:14em;}
+.wrap {
+	width:100%;}
+footer {
+	font-size:14px;}
+}

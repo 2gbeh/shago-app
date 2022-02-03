@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+* {font-family:Verdana, Geneva, sans-serif; font-size-adjust:100%/1.4; box-sizing:border-box;}
+body {padding:0; margin:0; background-color:#EEE; color:#333; font-size:16px;}
+h1, h2, h3, h4, h5, h6 {padding-left:0; padding-right:0;	margin-left:0; margin-right:0; font-weight:normal;}
+a {text-decoration:none; color:inherit;	cursor:pointer;	display:inline-block;}	
+ol, ul, dl {padding:0; margin:0; list-style-type:none;}
+ul li {display:inline-block; vertical-align:top;}
+ol li {display:block;}	
+table {width:100%;	border-collapse:collapse;}	
+th {cursor:default;}
+span {display:inline-block;	vertical-align:top;}
+address {font-style:normal;}
+var, i {font-style:normal;}
+
+/* PREDEFINED */
+.compact {margin:0 auto; width:400px;}
+.wrap {margin:0 auto; width:600px;}
+.wide {margin:0 auto; width:800px;}
+.cover {margin:0 auto; width:1024px;}
+.anchor {color:#0000EE; text-decoration:underline;}
+.anchor:visited {color:#551A8B;}
+.anchor:hover	{color:#551A8B; cursor:pointer;}
+.anchor:active {color:#EE0000;}
+.censor {background-color:#000; color:#000;}
+.nowrap {white-space:nowrap;}	
+.glow {box-shadow:0 0 30px #DDD;}	
+.shadow {box-shadow:0 1px 2px 0 #DDD;}
+.indent {text-shadow:0 1px #FFF;}
+.anime {-webkit-transition:all .5s; transition:all .5s;}
+
+
+.wallpaper {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:fixed;
+	background-size:cover;
+	height:35em;}
+.thumbnail {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scroll;
+	background-size:cover;
+	width:120px;
+	height:120px;
+	border-radius:100%;
+	box-shadow:0 1px 2px 0 #999;
+	display:inline-block;}	
+.slider {
+	transition-property:background-image;
+	transition-duration:1s;
+	transition-timing-function:ease-in-out;
+	transition-delay:0;
+  -webkit-transition-property:background-image;
+  -webkit-transition-duration:1s;
+  -webkit-transition-timing-function:ease-in-out;
+  -webkit-transition-delay:0;}
+
+
+ol.number {list-style-type:decimal; list-style-position:inside;}
+ol.number li {display:list-item;}	
+ol.number_alpha {list-style-type:lower-alpha;}
+ol.number_roman {list-style-type:lower-roman;}
+ol.number_image {list-style-image:url('../check.png');}	
+ul.bullet {list-style-type:disc; list-style-position:inside;}
+ul.bullet li {display:list-item;}	
+ul.bullet_square {list-style-type:square;}
+ul.bullet_circle {list-style-type:circle;}
+ul.bullet_image {list-style-image:url('../check.png');}
+
+
+.rotate-up, .rotate-right, .rotate-down, .rotate-left {display:inline-block};
+.rotate-up {transform:rotate(180deg); -webkit-transform:rotate(180deg);	-o-transform:rotate(180deg); -moz-transform:rotate(180deg);}
+.rotate-down {transform:rotate(180deg);	-webkit-transform:rotate(180deg);	-o-transform:rotate(180deg); -moz-transform:rotate(180deg);}
+.rotate-right {transform:rotate(90deg);	-webkit-transform:rotate(90deg); -o-transform:rotate(90deg); -moz-transform:rotate(90deg);}
+.rotate-left {transform:rotate(-90deg);	-webkit-transform:rotate(-90deg);	-o-transform:rotate(-90deg); -moz-transform:rotate(-90deg);}	
+
+
+.circle {width:100px; height:100px; background:red; border-radius:50%}
+.square {width:100px; height:100px; background:red;}
+.rectangle {width:200px; height:100px; background:red;}
+.triangle {width:0; height:0; border-left:50px solid transparent; border-right:50px solid transparent; border-bottom:100px solid red;}
+.star {margin:50px 0; position:relative; display:block; color:red; width:0px; height:0px; border-right:100px solid transparent; border-bottom:70px solid red; border-left:100px solid transparent; transform:rotate(35deg);} 
+.star:before {border-bottom:80px solid red; border-left:30px solid transparent; border-right:30px solid transparent; position:absolute; height:0; width:0; top:-45px; left:-65px; display:block; content:''; transform:rotate(-35deg);}
+.star-five:after {position:absolute; display:block; color:red; top:3px; left:-105px; width:0px; height:0px; border-right:100px solid transparent; border-bottom:70px solid red; border-left:100px solid transparent; transform:rotate(-70deg); content:'';}
+.heart {position:relative; width:100px; height:90px;} 
+.heart:before, .heart:after {position:absolute; content:""; left:50px; top:0; width:50px; height:80px; background:red; border-radius:50px 50px 0 0; transform:rotate(-45deg); transform-origin:0 100%;}
+.heart:after {left:0; transform:rotate(45deg); transform-origin:100% 100%;}
+.scope {font-size:10em; display:inline-block; width:0.4em; box-sizing:content-box; height:0.4em; border:0.1em solid red; position:relative; border-radius:0.35em;} 
+.scope:before {content:""; display:inline-block; position:absolute; right:-0.25em; bottom:-0.1em; border-width:0; background:red; width:0.35em; height:0.08em; transform:rotate(45deg);}
+.padlock {font-size:8px; position:relative; width:18em; height:13em; border-radius:2em; top:10em; box-sizing:border-box; border:3.5em solid red; border-right-width:7.5em; border-left-width:7.5em; margin:0 0 6rem 0;} 
+.padlock:before {content:""; box-sizing:border-box; position:absolute; border:2.5em solid red; width:14em; height:12em; left:50%; margin-left:-7em; top:-12em; border-top-left-radius:7em; border-top-right-radius:7em;} 
+.padlock:after {content:""; box-sizing:border-box; position:absolute; border:1em solid red; width:5em; height:8em; border-radius:2.5em; left:50%; top:-1em; margin-left:-2.5em;}
+
+/* FONTS
+font-family:Roboto, sans-serif;
+font-family:Verdana, Geneva, sans-serif; 
+font-family:"Segoe UI","Segoe UI Light","Segoe Script";	
+*/
+
+/* PALETTE
+Cyan 		#0093DD
+Lyan		#75C5F0	
+Dyan		#007BB8
+Pyan		#D81B60
+Call		#16BC00
+Dall		#090
+Blood		#E11
+BACKGROUND
+	Darker	#F4F4F4
+	Lighter	#F7F7F7
+	Footer	#373435
+META
+	Blue		#1A0DAB
+	Green		#006621
+LINKS
+	Blue		#0000EE
+	Purple 	#551A8B	
+	Red			#EE0000
+ANDROID
+	Android			#77C159
+	Mantis			#A4C639
+	Dark Green	#00574B
+	Light Green	#008577
+	Pink				#D81B60
+RAINBOW (ROYGBIV)
+	Red					#FF0000
+	Orange			#FF7F00	
+	Yellow			#FFFF00	
+	Green 			#00FF00	
+	Blue				#0000FF
+	Indigo			#4B0082
+	Violet			#9400D3
+	Magenta			#FF00FF
+BOOTSTRAP
+	Red					#DD4B39
+	Green				#00A65A	
+	Blue				#00C0EF	
+	Yellow			#F39C12
+	Dark Red		#C64333
+	Dark Green	#009551	
+	Dark Blue		#00ACD7	
+	Dark Yellow	#DA8C10
+FONT AWESOME
+	Red					#FF2615
+	Green				#1cCD650
+	Blue				#4BADDA
+	Yellow			#FFBA00
+W3SCHOOLS
+	Green				#4CAF50
+	Border			#F1F1F1	
+	Black				#5F5F5F		
+*/
+
+/* ENTITIES 
+&#9745; 	CHECKBOX
+&#9989; 	CHECKBOX GREEN
+&#10004;	BLACK TICK
+&#10006;	BLACK X
+&#10060; 	RED X
+&#8594;		RIGHT ARROW
+&#127968; HOME
+&#8470; 	NO.
+&#9743; 	TELEPHONE
+&#9993; 	EMAIL
+&#127760; GLOBE
+&#128197; CALENDAR
+&#128338; CLOCK
+&#8635; 	RELOAD
+&#9998; 	PENCIL
+&#8358;		NAIRA
+&#10010;	PLUS
+&#9888;		CAUTION
+*/
+
+/* VIEWPORTS 
+opera.............768 x 1280
+bb................345 x 571
+tekno spark2......360 x 720
+infinix hot 8.....360 x 800
+infinix hot 6.....360 x 720
+samsung 9+........412 x 846
+tekno spark3......360 x 750
+
+@media only screen and (max-width:600px) {
+	
+}	
+
+@media only screen and (max-width:860px) {
+	
+}	
+*/

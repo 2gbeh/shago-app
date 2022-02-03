@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="image/png" href="favicon.png"  sizes="32x32" rel="icon" />
+  <title>Traffic Report</title>
+  <link type="text/css" href="master.css" rel="stylesheet" />
+  <script type="text/javascript" src="master.js"></script>
+</head>
+<body onLoad="tent_otis_get('action.php')">
+<div class="wrap">
+<table border="0" width="100%" class="mantis_dashboard"> 
+<caption>
+  <div class="header_cover">
+    <div class="header_wrap">
+    	<i id="unique" title="Unique IPs">0</i> / 
+      <i id="total" title="Total Visits">0</i>
+      <var title="Average Visits per IP" style="text-transform:lowercase;">
+      	(~<i id="mean">0</i>x)
+      </var>
+    </div>
+    Traffic Report
+  </div>
+  <div class="chart_cover">
+    <div class="chart_donut">
+      <div class="chart_wrap">
+       	<ul style="display:none;"><li id="meter">&nbsp;</li></ul>
+        <div class="percent"><var id="stats">0</var>%</div>        
+        <div class="label">Growth Rate</div>
+      </div>
+    </div>
+  </div>
+</caption>
+<tr>
+  <th>
+			<var id="today" title="Total IPs Today">0</var>
+      <div class="label">Today</div>
+  </th>
+  <th>
+			<var id="this_week" title="Total IPs this Week">0</var>
+      <div class="label">This Week</div>
+  </th>
+  <th>
+			<var id="this_month" title="Total IPs this Month">0</var>
+      <div class="label">This Month</div>
+  </th>                
+</tr>
+<tr class="section">
+  <td colspan="3">Gross Metrics</td>
+</tr>
+<tr>
+  <td colspan="3">
+		<var id="last_7days">0</var>
+    Total IPs within the last <b>7 days</b>
+  </td>
+</tr>
+<tr>
+  <td colspan="3">
+		<var id="last_30days">0</var>
+    Total IPs within the last <b>30 days</b>
+  </td>
+</tr>
+<tr>
+  <td colspan="3">
+		<var id="last_90days">0</var>
+    Total IPs within the last <b>90 days</b>
+  </td>
+</tr>
+<tr class="section">
+  <td colspan="3">Visitor Metrics</td>
+</tr>
+<tbody id="data"></tbody>    
+</table>   
+</div>
+<footer>
+  Copyright &copy; 2011 HWP Labs. CRBN 658815
+</footer> 
+</body>
+</html>
+

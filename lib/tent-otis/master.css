@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family:Roboto, sans-serif;	
+  font-size-adjust:100%/1.4;
+  box-sizing:border-box;}
+body {
+	padding:0; 
+	margin:0;
+	background-color:#F4F4F4;
+	color:#333;
+	font-family:16px;}
+ol, ul, dl {
+	padding:0;
+	margin:0;
+	list-style-type:none;}
+table {
+	width:100%;
+	border-collapse:collapse;}
+i, var {
+	font-style:normal;}
+.wrap {
+	margin:0 auto;
+	width:400px;}
+	
+table.mantis_dashboard {
+	background-color:#FFF;}
+table.mantis_dashboard caption .header_cover {
+	padding:15px 20px;
+	text-align:left;
+	text-transform:uppercase;
+	text-shadow:1px 1px 0 #FFF;	
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:solid thin #DDD;}
+table.mantis_dashboard caption .header_wrap {
+	float:right;
+	cursor:pointer;}
+table.mantis_dashboard caption .header_wrap var {
+	color:#999;}
+	
+table.mantis_dashboard caption .chart_cover {
+	padding-top:30px;
+	background-color:#FFF;
+	text-align:center;}
+table.mantis_dashboard caption .chart_donut {
+	margin-left:auto;
+	margin-right:auto;
+	width:240px;
+	height:240px;
+	display:block;
+	border:20px solid #CCC;
+	border-top:20px solid #999;
+	border-radius:100%;
+	-webkit-transform:rotate(45deg);	
+	transform:rotate(45deg);
+	position:relative;}
+table.mantis_dashboard caption .chart_wrap {
+	margin:0;
+	width:100%;
+/*	background-color:red;*/
+	top:31%;
+	left:0%;
+	transform:translate(-31%,0%);
+	-webkit-transform:rotate(-45deg);	
+	transform:rotate(-45deg);
+	position:absolute;
+	text-transform:uppercase;	
+	font-weight:bold;}
+table.mantis_dashboard caption .chart_wrap .percent {
+	font-size:48px;}
+table.mantis_dashboard caption .chart_wrap .label {
+	font-size:14px;}	
+	
+table.mantis_dashboard tr th {
+	padding:15px 10px;
+	width:33%;	
+	font-size:32px;	}	
+table.mantis_dashboard tr th:first-child {
+	color:#F44336;}
+table.mantis_dashboard tr th:nth-child(2) {
+	color:#4CAF50;}
+table.mantis_dashboard tr th:last-child {
+	color:#2196F3;}	
+table.mantis_dashboard th .label {
+	font-size:14px;
+	font-weight:normal;}	
+	
+table.mantis_dashboard tr td {
+	padding:15px 20px;
+	border-bottom:solid thin #DDD;}	
+table.mantis_dashboard tr.section td {
+	background-color:#F4F4F4;
+	text-transform:uppercase;
+	text-shadow:1px 1px 0 #FFF;
+	font-size:14px;
+	font-weight:bold;
+	border-top:solid 3px #DDD;}
+table.mantis_dashboard tbody td var {
+	color:#999;
+	float:right;}
+	
+footer {
+	margin:15px 0;
+	text-align:center;
+	text-shadow:1px 1px 0 #FFF;}
+	
+@media only screen and (max-width:600px) {
+.wrap {
+	width:100%;}
+table.mantis_dashboard caption .header_cover, 
+table.mantis_dashboard tr td {
+	padding:15px;}	
+table.mantis_dashboard tbody tr td {	
+  font-size:15px;}	
+footer {
+	font-size:14px;}
+}
