@@ -1,0 +1,39 @@
+SHAGO
+-------------------------------------------------------
+_Strongp@ssw0rd
+
+SHAGO
+src/_config_page
+inc/end, head
+root/account, vendor, vendors, products, product, tickets
+test/index
+css/viewport, theme
+lib/fa/css/
+
+MMFX
+add investor -- fd
+view investors -- fd, cc
+edit investor -- cc
+delete investor -- ceo
+
+add deposit -- fd
+view deposits
+edit deposit
+delete deposit -- ceo
+
+add payout
+view payouts
+edit payout
+delete payout -- ceo
+
+inc/head
+src/glob_, view_user
+root/profile, dash
+
+W3SCH
+java...95
+sql...95
+py...95
+
+
+DIAMOND
