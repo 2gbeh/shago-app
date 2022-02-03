@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.template header .wrap {
+	padding:5px 10px 0;}
+.template header .drawerr {
+	color:#FFF;
+	font-size:42px;
+	line-height:0.4;
+	display:inline-block;}	
+.template header .logo {
+	margin-left:15px;
+	width:100px;}		
+/*.template header select {
+	padding:0 5px;	
+	margin-right:5px;
+	background-color:transparent;	
+	border:none;}
+.template header select option {
+	background-color:#FFF;	
+	color:#333;
+	border:none;}	*/
+.template header i {
+	margin:0 7px;
+	color:#FFF;
+	font-size:18px;}
+
+
+.template aside {
+	display:none;}
+.template main {
+	background-color:#FFF;}
+	
+	
+.template footer {
+	padding:20px 10px;	
+	color:#FFF;
+	text-align:center;	
+	font-size:14px;}
+
+.template footer ul.contacts {
+/*	border:solid thin;*/}	
+.template footer ul.contacts li {
+	margin:20px 20px;
+	text-align:left;}	
+.template footer ul.contacts li i {
+	padding:10px;
+	margin-right:15px;
+	color:#333;
+	font-size:22px;
+	border-radius:100%;}
+.template footer ul.contacts li var {
+	margin:5px 0;
+	font-size:12px;
+	font-weight:bold;
+	display:block;}
+.template footer ul.contacts li a:hover {
+	text-decoration:underline;}
+
+.template footer ul.links li {
+	margin:20px 30px;}
+.template footer ul.links li i {
+	margin-right:3px;}	
+.template footer ul.links li a {
+	text-decoration:uderline;}		
+	
+.template footer section {
+	margin:20px 0;}
+.template footer section i {
+	margin:2px 10px 20px 0;
+	font-size:24px;
+	line-height:0.5;
+	float:left;}	
+.template footer section var {
+	font-weight:bold;
+	font-size:12px;}	
+	
+.template footer address {
+	color:#999;}	
+	
+	
+	
+	
+	
+	

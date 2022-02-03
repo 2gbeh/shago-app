@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.home section.search {
+	background-image:url("../image/banne.png");
+	background-repeat:repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;}
+.home section.search {
+	padding:150px 20px;
+	text-align:center;}	
+.home section.search .caption {
+	margin-bottom:20px;
+	font-style:italic;
+	font-weight:bold;}
+.home section.search .caption var {
+	padding:8px 10px;
+	margin:5px 0 0 5px;
+	background-color:#2D2D2D;
+	color:#FFF;
+	font-size:12px;
+	font-weight:normal;
+	border-radius:5px;
+	display:inline-block;}			
+.home section.search .caption var i {
+	margin-right:5px;}
+.home section.search .caption .desktop {
+	display:block;}	
+.home section.search .caption .mobile {
+	display:none;}	
+.home section.search form {
+	display:block;}
+.home section.search form input {
+	padding:20px 40px;
+	width:100%;
+	border:none;
+	border-radius:50px 0 0 50px;
+  -webkit-transition:all .5s; /* Safari */
+  transition:all .5s;}
+.home section.search form input:focus {
+	background-color:#FFC;}	
+.home section.search form button {
+	color:#FFF;
+	padding:14px;
+	padding-left:15px;
+	padding-right:18px;
+	border:none;
+	border-radius:0 50px 50px 0;}	
+.home section.search form button i {
+	font-size:28px;}	
+
+
+.home section.niche {
+	padding:10px 0;
+	background-color:#FFF;}
+.home section.niche table td {
+	width:33%;
+	text-align:center;}
+.home section.niche table td a {
+	padding:35px 0;
+	border:solid 10px #FFF;
+	display:block;		
+  -webkit-transition:all .5s; /* Safari */
+  transition:all .5s;}
+.home section.niche table td a:hover {
+	color:#FFF;}			
+.home section.niche table td i {
+	margin-bottom:5px;
+	font-size:52px;
+	display:block;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		

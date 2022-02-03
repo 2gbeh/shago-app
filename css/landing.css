@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */	
+.landing .wrap {
+	width:400px;}		
+
+.landing table {
+	width:100%;}
+.landing table td {
+	padding:10px 0;}
+
+.landing form {
+	padding:60px 20px;
+	border:solid thi;} 	
+.landing form legend .title {
+	text-align:center;
+	font-size:26px;
+	font-weight:bold;}
+.landing form legend .subtitle {
+	color:#555;
+	margin:5px 20px;
+	text-align:center;
+	font-style:italic;}
+.landing form label {
+	font-size:14px;	
+	display:block;}	
+.landing form label::first-letter {
+	text-transform:capitalize;}	
+.landing form input,
+.landing form select,
+.landing form textarea {
+	background-color:transparent;
+	color:#555;
+	padding:5px 0 10px;
+	width:100%;
+	font-size:18px;
+	border:0;
+	border-bottom:solid #DDD;
+  -webkit-transition:border-color .5s; /* Safari */
+  transition:border-color .5s;	
+	display:block;}
+.landing form button {
+	padding:15px 0;
+	color:#333;
+	width:100%;	
+	font-family:inherit;
+	font-size:18px;
+	font-weight:bold;
+	border:0;}	
+	
+.landing .password_cover {
+	position:relative;}
+.landing .password_cover a {
+	position:absolute; 
+	top:30px;	
+	right:5px;
+	color:#555;
+	font-size:14px;
+	font-weight:bold;}
+.landing .help_cover {
+	margin:20px 10px 10px;
+	text-align:center;}	
+.landing .help_cover a {
+	text-decoration:underline;
+	font-weight:bold;	}
+.landing .next_cover {
+	margin:10px;
+	text-align:center;}	
+.landing .next_cover a {
+	font-weight:bold;}	
+
+
+
+

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */	
+.about {
+	padding:20px 15px 40px;
+	background-color:#FFF;
+	text-align:left;}
+
+.about h2 {
+	margin:20px 0 10px;
+	font-size:28px;
+	font-weight:bold;}
+.about h3 {
+	margin:30px 0 10px;
+	font-weight:bold;}	
+	
+.about article {
+	margin-bottom:20px;
+	line-height:1.4;}	
+.about article a:link {
+	text-decoration:underline;}	
+.about article ol {
+	list-style-type:disc;
+	list-style-position:inside;}	
+.about article ol li {
+	margin:10px 0;	
+	display:list-item;}
+.about article b {
+	font-weight:normal;
+	display:inline-block;}
+	
+.about figure {
+	margin:0;	
+	padding:0;
+	display:block;}
+.about figure img {
+	width:100%;
+	box-shadow:0 2px 1px 0 #EEE;	
+	display:block;}
+.about figcaption {
+	margin:10px;
+	text-align:center;
+	font-style:italic;
+	display:block;}
+
+.about section ol li {
+	margin:10px 0;}
+.about section ol li i {
+	margin-right:5px;}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		

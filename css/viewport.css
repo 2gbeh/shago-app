@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width:600px) {
+.wrap {
+	width:100%;}
+.landing .wrap {
+	width:100%;}	
+	
+		
+.template header .logo {
+	margin-left:10px;}
+.template footer ul.contacts {
+	text-align:left;}	
+.template footer ul.contacts li {
+	margin:20px 0 20px 15%;}			
+.template footer ul.links li {
+	margin:20px 10px;}
+.template footer address {
+	padding-bottom:10px;}		
+	
+.landing form {
+	padding:40px 20px;}	
+	
+.home section.search {
+	padding:100px 20px;}
+.home section.search .caption .desktop {
+	display:none;}	
+.home section.search .caption .mobile {
+	display:block;}	
+.home section.search form input {
+	padding:15px 20px;}	
+.home section.search form button {
+	padding:11px;
+	padding-right:15px;}
+.home section.search form button i {
+	font-size:24px;}	
+.home section.niche {
+	padding:0;}	
+.home section.niche tr {
+  vertical-align:top;}
+.home section.niche td a {
+	padding:20px 10px;
+	border-width:5px;}
+	
+.about figcaption {
+	font-size:14px;}	
+	
+	
+
+.feed .thumb {
+	height:160px;}	
+	
+._404 h2 {
+  margin-top:0;
+	text-transform:capitalize;
+	font-size:36px;}
+._404 article {
+  margin-bottom:20px;}			
+	
+}		
+

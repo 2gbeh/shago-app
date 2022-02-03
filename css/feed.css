@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.template main.feed {
+	padding-to:20px;	
+	background-color:#F4F4F4;}
+	
+.feed table {	
+	border-collapse:separate;
+	border-spacing:10px;}
+	
+.feed table caption {
+	padding:5px;
+	text-align:left;	
+	text-transform:uppercase;
+	text-shadow:1px 1px 0 #FFF;
+	font-size:14px;
+	font-weight:bold;
+	display:block;}	
+	
+.feed table tr td {
+	padding:10px;
+	background-color:#FFF;}
+	
+.feed .thumb {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;
+	width:100%;
+	height:260px;
+	display:block;}	
+	
+.feed .vendor {
+	padding:5px 8px;
+	color:#FFF;
+	font-size:10px;
+	border-radius:4px;
+	display:inline-block;}
+	
+.feed .product {
+	margin-top:5px;
+	line-height:20px;}	
+	
+.feed .price {
+	margin:10px 0;
+	font-size:24px;
+	font-weight:bold;
+	line-height:20px;}
+	
+.feed .action {
+	margin-top:15px;}
+	
+.feed .action a {
+	color:#FFF;
+	padding:10px 0;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:4px;}	
+	
+.feed .action a.btn-pri {
+	margin-right:5px;
+	min-width:210px;}
+	
+.feed .action a.btn-sec {
+	padding-left:15px;
+	padding-right:15px;}	
+	
+	
+	
+	
+				

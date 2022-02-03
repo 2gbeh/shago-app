@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.template main._404 {
+	background-color:#F4F4F4;}
+	
+._404 {
+	padding:20px 10px 40px;
+	text-align:center;
+	text-shadow:1px 1px 0 #FFF;}
+._404 h1 {
+	margin:0;
+	font-size:150px;
+	font-weight:bold;}
+._404 h2 {
+	margin:5px 0 20px;
+	text-transform:uppercase;
+	font-size:38px;}
+._404 article {
+	margin-bottom:40px;
+	line-height:1.4;}
+._404 a {
+	padding:15px 30px;
+	font-weight:bold;
+	border-radius:50px;
+	text-shadow: none;
+	display:inline-block;}
+._404 a:hover {
+	background-color:#333;
+	color:#FFF;}	
+	
+	
+	
+	
+	
+	
+	
+	
+		

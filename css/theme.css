@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* RED #CE1126 */
+.template header,
+.home section.search form button,
+.home section.niche table td a:hover, 
+.feed .vendor {
+	background-color:#CE1126;}
+
+.home section.niche table td a, 
+.landing form legend .subtitle, 
+.landing .next_cover a, 
+.about article a,  
+.about article b {
+	color:#CE1126;}	
+	
+	
+/* YELLOW #FCD116 */
+.template section.search, 
+.template footer ul.contacts li i, 
+.landing button, 
+._404 a, 
+.menu ul li a:hover,
+.menu ul li a:active, 
+.feed .action a.btn-pri {
+	background-color:#FCD116;}
+	
+.template header select, 
+.template footer section i {
+	color:#FCD116;}
+	
+.landing form input:focus,
+.landing form select:focus {
+	border-color:#FCD116}	
+	
+	
+/* BLACJ #2D2D2D */
+.template footer, 
+.feed .action a.btn-sec  {
+	background-color:#2D2D2D;}
+	
+ {
+	color:#2D2D2D;}
+	
+ {
+	border-color:#2D2D2D}		
+
+
+
+	

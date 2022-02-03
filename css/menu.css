@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.template main.menu {
+	padding-to:20px;	
+	background-color:#F4F4F4;}
+	
+.menu section {
+	padding:15px;
+	text-transform:uppercase;
+	text-shadow:1px 1px 0 #FFF;
+	font-size:14px;
+	font-weight:bold;
+	display:block;}	
+.menu section  var {
+	float:right;}	
+
+.menu ul {
+	box-shadow:0 2px 1px #DDD;}
+.menu ul li {	
+	border-bottom:solid thin #F4F4F4;
+	display:block;}
+.menu ul li a {
+	padding:8px 0 10px;
+	background-color:#FFF;
+	display:block;}
+.menu ul li a:hover,
+.menu ul li a:active {
+	background-color:#F7F7F7;}
+
+.menu table tr td:first-child, 
+.menu table tr td:last-child {
+	width:1px;}
+.menu table tr td {	
+	padding:0;}
+
+.menu table .thumb {
+	margin:0 15px;
+	background-color:#555;
+	color:#FFF;	
+	width:35px;
+	height:35px;
+	text-align:center;
+	line-height:2.2;
+	border-radius:100%;
+	box-shadow:0 1px 1px #CCC;	
+	display:inline-block;}
+.menu table .title {
+	font-size:18px;}
+.menu table .subtitle {
+	color:#999;
+	font-size:14px;}
+.menu table .caret {
+	margin:0 15px;
+	font-size:36px;
+	font-weight:normal;
+	line-height:1;}	
+	
+	
+	
+	
